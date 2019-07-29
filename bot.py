@@ -1,7 +1,9 @@
 import discord
-from discord.ext.commands import Bot
 from discord.ext import commands
+from discord.ext.commands import Bot
 import random
+import requests
+import os
 
 Client = discord.Client()
 bot_prefix = "xh"
