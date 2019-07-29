@@ -59,4 +59,4 @@ async def hilfe(ctx):
 
 
 
-client.run("NTk3NDg5NTY0MTY4MjI0ODI2.XSXAmA.qLVfWLmdQY-8K_EWFwF3gy6gHQM")
+client.run(str(os.environ.get('BOT_TOKEN')))
